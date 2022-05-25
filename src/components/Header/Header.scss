@@ -1,0 +1,28 @@
+$link-color: rgb(113, 209, 190);
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header__nav {
+  ul {
+    list-style: none;
+    display: flex;
+  }
+}
+
+.header__link {
+  padding-left: 10px;
+  .active {
+    text-decoration: underline;
+  }
+}
+
+.header__navlink {
+  color: $link-color;
+}
+
+.header__navlink:hover {
+  opacity: 0.7;
+}
