@@ -1,10 +1,18 @@
+import Converter from "../Converter/Converter";
+import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
+import "./Main.css";
 
-const Main = () => {
+const Main = ({ setLoaderActive }) => {
   return (
-    <div>
-      <Header />
-      <main className="main">Главная</main>
+    <div className="wrapper">
+      <div>
+        <Header />
+        <main className="main">
+          <Converter setLoaderActive={setLoaderActive} />
+        </main>
+      </div>
+      <Footer />
     </div>
   );
 };

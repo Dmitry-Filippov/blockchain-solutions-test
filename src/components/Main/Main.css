@@ -1,0 +1,13 @@
+.wrapper {
+  min-height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 70px;
+}

@@ -1,0 +1,27 @@
+.graph {
+  width: 80%;
+  min-height: 40px;
+  margin: 300px auto 0;
+  background: red;
+  border-radius: 10px;
+  display: flex;
+  overflow: hidden;
+}
+
+.graph div {
+  min-height: 40px;
+  text-align: center;
+  padding: 10px;
+}
+
+.graph__usd {
+  background-color: #000470;
+}
+
+.graph__btc {
+  background-color: #00996b;
+}
+
+.graph__eth {
+  background-color: #997800;
+}

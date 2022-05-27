@@ -1,0 +1,52 @@
+.wrapper {
+  min-height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.profile {
+  padding-top: 70px;
+}
+
+.profile__title {
+  font-weight: 500;
+  font-size: 60px;
+  text-align: center;
+}
+
+.profile__coins-wrapper {
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.profile__coin-card {
+  max-width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile__button {
+  width: 23px;
+  height: 23px;
+  border: 1px solid rgb(206, 206, 206);
+  border-radius: 5px;
+  color: rgb(206, 206, 206);
+  background: none;
+  cursor: pointer;
+}
+
+.profile__coin-count {
+  margin: 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.profile__sum {
+  text-align: center;
+  margin-top: 140px;
+}
+

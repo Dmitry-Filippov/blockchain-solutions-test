@@ -1,3 +1,5 @@
+@import-normalize;
+
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;500&display=swap");
 
 $text-color: rgb(206, 206, 206);
@@ -8,6 +10,7 @@ $font: "Plus Jakarta Sans", sans-serif;
   margin: 0;
   padding: 0;
   text-decoration: none;
+  box-sizing: border-box;
 }
 
 body {
